@@ -18,8 +18,6 @@ _start:
     int 0x80
 ```
 ```
-::: x86 Shellcode Factory :::
-
 
 ::: Your piece of art :::
 
