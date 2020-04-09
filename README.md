@@ -1,10 +1,7 @@
-# The Shellcode Factory
-minimal environment for shellcode development in linux.
-For now supports x86.
 
 ## HOWTO
 1. edit shellcode.asm file
-2. execute "make asm=shellcode.asm"
+2. execute make_shellcode.sh (32 or 64)
 3. Wow !
 
 ## Example
@@ -20,9 +17,6 @@ _start:
     inc eax
     int 0x80
 ```
-saved as examples/shellcode.asm.
-
-make asm=examples/shellcode.asm
 ```
 ::: x86 Shellcode Factory :::
 
